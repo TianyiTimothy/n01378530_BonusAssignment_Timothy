@@ -25,7 +25,7 @@ namespace n01378530_BonusAssignment_Timothy
                     int ClientTicketsTotal = Convert.ToInt32(client_tickets_total.Text);
 
                     /* Four conditions:
-                     * x <= 50: individually
+                     * 1 <= x <= 50: individually
                      * 51 <= x <= 150: sets of 2
                      * 151 <= x <= 300: sets of 3
                      * 300 <= x: sets of 5
@@ -50,9 +50,10 @@ namespace n01378530_BonusAssignment_Timothy
             }
         }
         /// <summary>
-        /// output the result
+        /// output the result with param of total number of client tickets and default sets
         /// </summary>
-        /// <param name="sets"></param>
+        /// <param name="ClientTicketsTotal">how many tickets the client ordered</param>
+        /// <param name="Sets">sets based on the rule</param>
         private void Output(int ClientTicketsTotal, int Sets)
         {
             // these show the user input, but not necessary

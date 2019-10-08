@@ -2,6 +2,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: antiquewhite;
 }
 
 /* Wrapping element */
@@ -28,4 +29,13 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+/* Set CSS for div */
+section {
+    background-color: #fefefe;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto 20px;
+    border-radius: 3px;
 }

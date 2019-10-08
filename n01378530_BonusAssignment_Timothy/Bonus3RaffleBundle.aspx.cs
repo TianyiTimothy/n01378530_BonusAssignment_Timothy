@@ -25,7 +25,7 @@ namespace n01378530_BonusAssignment_Timothy
                     int ClientTicketsTotal = Convert.ToInt32(client_tickets_total.Text);
 
                     /* Four conditions:
-                     * 1 <= x <= 50: individually
+                     * 1 <= x <= 50: individually 
                      * 51 <= x <= 150: sets of 2
                      * 151 <= x <= 300: sets of 3
                      * 300 <= x: sets of 5
